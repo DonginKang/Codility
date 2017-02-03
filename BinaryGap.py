@@ -31,7 +31,6 @@ def solution(N):
     return max
 
     
-solution(1041)
 	
 	
 	
