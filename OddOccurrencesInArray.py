@@ -17,7 +17,7 @@ def solution(A):                    # A is List. Ex) A[0] = 9  A[1] = 3  A[2] = 
         
     tup = dic.items() # 딕셔너리를 튜플로 변환. 이유? for 함수로 돌려서 체크 할려고
 
-    for pos in range(0,len(a)):  # 홀수 value 를 가지는 key 값 찾기
+    for pos in range(0,len(a)):     # 홀수 value 를 가지는 key 값 찾기
         remainder = a[pos][1] % 2
         if remainder == 1:
-            return a[pos][0]     # 홀수인 value 의 key값 반환 
+            return a[pos][0]        # 홀수인 value 의 key값 반환 
