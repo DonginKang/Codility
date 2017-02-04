@@ -1,16 +1,19 @@
 #-*- coding:utf-8 -*-
 
 '''
+ problem example 
+ 
  A = [3, 8, 9, 7, 6]
- K = 3
+ K = 3  
  return [9, 7, 6, 3, 8]
+
 '''
 
 def solution(A, K):
-    B = A[:]  # A ¸®½ºÆ® º¹»ç
+    B = A[:]  # A ë¦¬ìŠ¤íŠ¸ ë³µì‚¬
     
     for i in range(0,len(A)):
-        B[(i+K)%len(A)] = A[i] # ÇÙ½É ¾Ë°í¸®Áò  
+        B[(i+K)%len(A)] = A[i] # í•µì‹¬ ì•Œê³ ë¦¬ì¦˜  
     
     return B
     
