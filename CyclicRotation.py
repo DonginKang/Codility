@@ -10,10 +10,10 @@
 '''
 
 def solution(A, K):
-    B = A[:]  # A 리스트 복사
+    B = A[:]  # Copy of A
     
     for i in range(0,len(A)):
-        B[(i+K)%len(A)] = A[i] # 핵심 알고리즘  
+        B[(i+K)%len(A)] = A[i] # Key Algorithm   
     
     return B
     
