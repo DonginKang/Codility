@@ -4,7 +4,7 @@
  problem example 
  
  A = [3, 8, 9, 7, 6]
- K = 3  
+ K = 3  # move 3
  return [9, 7, 6, 3, 8]
 
 '''
