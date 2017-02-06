@@ -10,7 +10,7 @@
 '''
 
 def solution(A, K):
-    B = A[:]  # Copy of A
+    B = [0] * len(A)  # Making list space like A 
     
     for i in range(0,len(A)):
         B[(i+K)%len(A)] = A[i] # Key Algorithm   
