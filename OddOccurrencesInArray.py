@@ -1,5 +1,7 @@
 #-*- coding:utf-8 -*-
 
+#Find value that occurs in odd number of elements.
+
 
 '''
 1. 우선 리스트를 딕셔너리 형태로 만든다.
