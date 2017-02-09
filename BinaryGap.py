@@ -1,5 +1,7 @@
 #-*- coding:utf-8 -*-
 
+# Find longest sequence of zeros in binary representation of an integer.
+
 # int -> bin 변환을 위한 함수
 def int2bin(i):
     if i == 0: return "0"
