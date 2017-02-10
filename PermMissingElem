@@ -1,0 +1,12 @@
+#-*- coding:utf-8 -*-
+
+# Problem : Find the missing element in a given permutation
+#  A = [1,2,3,4,6]  return 5 
+#  A = [1,2,3,4,5]  return 6  문제에서 [1~[N+1]] 이라고 했기때문에 .. 문제를 잘 읽자
+
+def solution(A):
+    A.sort()   # B = sorted(A) 로 써도 된다.
+    for i in range(0,len(A)):
+        if not A[i] == i+1:
+            return i+1
+    return len(A) + 1  
