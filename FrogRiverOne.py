@@ -14,17 +14,17 @@ return 6
 
 def solution(X,A):
 	B = [0] * X
-	TotalSum = 0             # ÀüÃ¼ ÇÕ°è
-	PartialSum = 0			 # ºÎºĞ ÇÕ°è
+	TotalSum = 0             # ì „ì²´ í•©ê³„
+	PartialSum = 0	         # ë¶€ë¶„ í•©ê³„
 	
 	for i in xrange(1,X+1):
-		TotalSum += i        # ÀüÃ¼ ÇÕ°è
+		TotalSum += i     # ì „ì²´ í•©ê³„
 	
 	for j in xrange(0,len(A)):
-		if B[A[j]-1] == 0:             # B¹è¿­ÀÌ ºñ¾î ÀÖÀ¸¸é
-			B[A[j]-1] = A[j]		   # B¿¡ A°ªÀ» ³Ö°í
-			PartialSum += A[j]		   # ºÎºĞÇÕ°è¸¦ ´©Àû½ÃÅ²´Ù.
-			if PartialSum == TotalSum: # ºÎºĞÇÕ°è¿Í ÀüÃ¼ÇÕ°è°¡ °°¾ÆÁú¶§ 
-				return j  			   # AÀÇ À§Ä¡¸¦ return ½ÃÅ²´Ù.
+		if B[A[j]-1] == 0:                   # Bë°°ì—´ì´ ë¹„ì–´ ìˆìœ¼ë©´
+			B[A[j]-1] = A[j]             # Bì— Aê°’ì„ ë„£ê³ 
+			PartialSum += A[j]	     # ë¶€ë¶„í•©ê³„ë¥¼ ëˆ„ì ì‹œí‚¨ë‹¤.
+			if PartialSum == TotalSum:   # ë¶€ë¶„í•©ê³„ì™€ ì „ì²´í•©ê³„ê°€ ê°™ì•„ì§ˆë•Œ 
+				return j  	     # Aì˜ ìœ„ì¹˜ë¥¼ return ì‹œí‚¨ë‹¤.
 			
-	return -1 	 			  # °ªÀÌ ¾øÀ¸¸é -1À» ¸®ÅÏÇÑ´Ù.
+	return -1    # ê°’ì´ ì—†ìœ¼ë©´ -1ì„ ë¦¬í„´í•œë‹¤.
