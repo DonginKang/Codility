@@ -1,12 +1,16 @@
-ÇÏ·ç¿µ¾î (2/17)
+í•˜ë£¨ì˜ì–´ (2/17)
 
-Prerequisites and Requirements     ÇÊ¿äÁ¶°Ç ¿ä±¸»çÇ×
-								   requisite : ÇÊ¿äÇÑ 
+Prerequisites and Requirements     í•„ìš”ì¡°ê±´ ìš”êµ¬ì‚¬í•­
+								   requisite : í•„ìš”í•œ 
 								   
 								   
 Starting with version 3.0 of Ansible Tower, 
 support for running Tower on Ubuntu 12.04 has been deprecated 
 and will be removed in a future release.
 
-deprecate : ¾÷½Å¿©±â´Ù
-deprecated : ¾÷½Å¿©°ÜÁú°Í .. ÄÄÇ»ÅÍ¿¡ ¿ë¾î¿¡¼­´Â »ç¶óÁú°Í.
+deprecate : ì—…ì‹ ì—¬ê¸°ë‹¤
+deprecated : ì—…ì‹ ì—¬ê²¨ì§ˆê²ƒ .. ì»´í“¨í„°ì— ìš©ì–´ì—ì„œëŠ” ì‚¬ë¼ì§ˆê²ƒ.
+Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current. 
+
+alternate : ?
+This array represents consecutive operations:
