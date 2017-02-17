@@ -1,0 +1,12 @@
+하루영어 (2/17)
+
+Prerequisites and Requirements     필요조건 요구사항
+								   requisite : 필요한 
+								   
+								   
+Starting with version 3.0 of Ansible Tower, 
+support for running Tower on Ubuntu 12.04 has been deprecated 
+and will be removed in a future release.
+
+deprecate : 업신여기다
+deprecated : 업신여겨질것 .. 컴퓨터에 용어에서는 사라질것.
