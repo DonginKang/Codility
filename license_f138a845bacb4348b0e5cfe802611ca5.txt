@@ -1,0 +1,11 @@
+{
+    "company_name": "LG N-sys", 
+    "contact_email": "gang601@lgnsys.com", 
+    "contact_name": "Dongin Kang", 
+    "hostname": "f138a845bacb4348b0e5cfe802611ca5", 
+    "instance_count": 10, 
+    "license_date": 2118734017, 
+    "license_key": "6d4297869dbaa195cae81f7ff135b98598ba72be850e9b6cec90eae0c0002e43", 
+    "license_type": "basic", 
+    "subscription_name": "Ansible Tower by Red Hat, Self-Support (10 Managed Nodes)"
+}
