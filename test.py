@@ -9,7 +9,7 @@ def solution(N, A):
 		if A[i] <= N:
 			B[A[i]-1] += 1
 		else:
-			C = sorted(B)
+			C = sorted(B)     # modify. wrong line.
 			for j in xrange(len(B)):
 				B[j] = C[N-1]
 	return B
