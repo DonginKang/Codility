@@ -4,15 +4,18 @@
 
 # int -> bin 변환을 위한 함수
 def int2bin(i):
-    if i == 0: return "0"
-    s = ''
-    while i:
-        if i & 1 == 1:
-            s = "1" + s
-        else:
-            s = "0" + s
-        i /= 2
-    return s
+    binary = ""
+
+    if i < 0:
+        return -1
+    if i == 0:
+        return 0
+
+    while(i):
+        binary = str(i%2) + binary
+        i = i/2
+
+   return binary
     
     
 def solution(N):
