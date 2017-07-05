@@ -1,2 +1,2 @@
 
-Python solutions for: https://codility.com/train/
+reference site : https://codility.com/train/
